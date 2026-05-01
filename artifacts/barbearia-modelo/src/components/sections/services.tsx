@@ -133,7 +133,7 @@ export function Services() {
             <div key={n} className="flex items-center gap-3">
               <button
                 onClick={() => n === 2 && selectedServices.length > 0 ? setStep(2) : setStep(1)}
-                className={`flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider border transition-all ${
+                className={`flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-normal border transition-all ${
                   step === n
                     ? "bg-primary text-primary-foreground border-primary"
                     : selectedServices.length > 0 && n === 2
@@ -192,7 +192,7 @@ export function Services() {
                           <div className="flex items-center gap-2 flex-wrap mb-0.5">
                             <span className="font-serif font-bold text-foreground text-base">{service.name}</span>
                             {service.tag && (
-                              <span className="text-[10px] font-bold uppercase tracking-wider bg-primary text-primary-foreground px-2 py-0.5 rounded-full">
+                              <span className="text-[10px] font-bold uppercase tracking-normal bg-primary text-primary-foreground px-2 py-0.5 rounded-full">
                                 {service.tag}
                               </span>
                             )}
@@ -219,7 +219,7 @@ export function Services() {
                   <Button
                     size="lg"
                     onClick={() => setStep(2)}
-                    className="font-bold uppercase tracking-wider px-8 h-12 gap-2"
+                    className="font-bold uppercase tracking-normal px-8 h-12 gap-2"
                     data-testid="button-next-barber"
                   >
                     Escolher barbeiro
@@ -420,13 +420,13 @@ export function Services() {
 
                 <div className="flex items-center gap-4 shrink-0">
                   <div className="text-right hidden sm:block">
-                    <p className="text-[10px] text-muted-foreground uppercase tracking-wider">Total</p>
+                    <p className="text-[10px] text-muted-foreground uppercase tracking-normal">Total</p>
                     <p className="text-2xl font-serif font-bold text-foreground">{formatPrice(total)}</p>
                   </div>
                   <Button
                     size="lg"
                     asChild
-                    className="font-bold uppercase tracking-wider h-12 px-6 text-sm shadow-lg shadow-primary/20"
+                    className="font-bold uppercase tracking-normal h-12 px-6 text-sm shadow-lg shadow-primary/20"
                     data-testid="button-book-selected"
                   >
                     <a href={buildWhatsAppUrl()} target="_blank" rel="noopener noreferrer">

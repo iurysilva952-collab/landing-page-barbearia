@@ -34,7 +34,12 @@ export function Header() {
       }`}
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-        <a href="#inicio" className="text-2xl font-serif font-bold text-foreground tracking-wider uppercase">
+        
+        {/* LOGO */}
+        <a
+          href="#inicio"
+          className="text-2xl font-serif font-bold text-foreground tracking-normal uppercase"
+        >
           BARBEARIA<span className="text-primary">.</span>MODELO
         </a>
 
@@ -45,14 +50,15 @@ export function Header() {
               <li key={link.name}>
                 <a
                   href={link.href}
-                  className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-wider"
+                  className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-normal whitespace-nowrap"
                 >
                   {link.name}
                 </a>
               </li>
             ))}
           </ul>
-          <Button asChild className="font-bold uppercase tracking-wider">
+
+          <Button asChild className="font-bold uppercase tracking-normal whitespace-nowrap">
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               Agendar agora
             </a>
@@ -78,7 +84,7 @@ export function Header() {
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-lg font-medium text-foreground hover:text-primary transition-colors block uppercase tracking-wider"
+                    className="text-lg font-medium text-foreground hover:text-primary transition-colors block uppercase tracking-normal"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {link.name}
@@ -86,7 +92,8 @@ export function Header() {
                 </li>
               ))}
             </ul>
-            <Button asChild className="w-full font-bold uppercase tracking-wider">
+
+            <Button asChild className="w-full font-bold uppercase tracking-normal">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
                 Agendar agora
               </a>

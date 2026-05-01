@@ -43,14 +43,14 @@ export function Contact() {
             transition={{ delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-6"
           >
-            <Button size="lg" asChild className="w-full sm:w-auto text-lg h-16 px-10 font-bold uppercase tracking-wider bg-[#25D366] hover:bg-[#20bd5a] text-white">
+            <Button size="lg" asChild className="w-full sm:w-auto text-lg h-16 px-10 font-bold uppercase tracking-normal bg-[#25D366] hover:bg-[#20bd5a] text-white">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
                 <SiWhatsapp size={24} />
                 Agendar agora pelo WhatsApp
               </a>
             </Button>
             
-            <Button size="lg" variant="outline" asChild className="w-full sm:w-auto text-lg h-16 px-8 font-bold uppercase tracking-wider hover:text-[#E1306C] hover:border-[#E1306C]">
+            <Button size="lg" variant="outline" asChild className="w-full sm:w-auto text-lg h-16 px-8 font-bold uppercase tracking-normal hover:text-[#E1306C] hover:border-[#E1306C]">
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
                 <SiInstagram size={24} />
                 Siga-nos

@@ -97,7 +97,7 @@ export function Hero() {
             ].map((stat) => (
               <div key={stat.label}>
                 <p className="text-2xl font-serif font-bold text-primary">{stat.value}</p>
-                <p className="text-xs text-muted-foreground uppercase tracking-wider mt-0.5">{stat.label}</p>
+                <p className="text-xs text-muted-foreground uppercase tracking-normal mt-0.5">{stat.label}</p>
               </div>
             ))}
           </motion.div>

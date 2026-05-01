@@ -24,7 +24,7 @@ export function Location() {
                 <p className="text-muted-foreground mb-6">São Paulo, SP - 01000-000</p>
                 
                 <div className="space-y-2 mb-8">
-                  <h4 className="font-bold text-foreground uppercase tracking-wider text-sm mb-3">Horários de funcionamento</h4>
+                  <h4 className="font-bold text-foreground uppercase tracking-normal text-sm mb-3">Horários de funcionamento</h4>
                   <div className="flex justify-between text-muted-foreground border-b border-border/50 pb-2">
                     <span>Segunda a sexta</span>
                     <span className="font-medium text-foreground">09:00 às 19:00</span>
@@ -39,7 +39,7 @@ export function Location() {
                   </div>
                 </div>
 
-                <Button size="lg" asChild className="w-full sm:w-auto font-bold uppercase tracking-wider">
+                <Button size="lg" asChild className="w-full sm:w-auto font-bold uppercase tracking-normal">
                   <a href="https://maps.google.com/?q=Rua+Exemplo,123-Centro" target="_blank" rel="noopener noreferrer">
                     Como chegar
                   </a>
