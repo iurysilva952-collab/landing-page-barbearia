@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "CxxgJnnrMYCz3FBIjpcU-"
+uri = "file://artifacts/barbearia-modelo/public/images/hero.png"
+type = "image"
+title = "Luxury barbershop interior hero"
+
+[[generated]]
+id = "_WmLU0VlmfbD4EpbrZYA_"
+uri = "file://artifacts/barbearia-modelo/public/images/barber-1.png"
+type = "image"
+title = "Barber portrait 1"
+
+[[generated]]
+id = "U5B1IuJYl2zKeYuWX1yWG"
+uri = "file://artifacts/barbearia-modelo/public/images/barber-2.png"
+type = "image"
+title = "Barber portrait 2"
+
+[[generated]]
+id = "IBI-G9zmcOZ3l1Drjhm7l"
+uri = "file://artifacts/barbearia-modelo/public/images/barber-3.png"
+type = "image"
+title = "Barber portrait 3"
+
+[[generated]]
+id = "xRMPbXc9e6F0QbXVD97-a"
+uri = "file://artifacts/barbearia-modelo/public/images/gallery-1.png"
+type = "image"
+title = "Haircut close up 1"
+
+[[generated]]
+id = "0WRs9V4dwWum2nPD3UdQb"
+uri = "file://artifacts/barbearia-modelo/public/images/gallery-2.png"
+type = "image"
+title = "Haircut close up 2"
+
+[[generated]]
+id = "PBeMvmTKuk3-cpMXcjYMM"
+uri = "file://artifacts/barbearia-modelo/public/images/gallery-3.png"
+type = "image"
+title = "Beard grooming close up 1"
+
+[[generated]]
+id = "0Eit_ub4A7txLQ5u46Iws"
+uri = "file://artifacts/barbearia-modelo/public/images/gallery-4.png"
+type = "image"
+title = "Beard grooming close up 2"
+
+[[generated]]
+id = "pLLdDGy7gmDcUanOPG3zw"
+uri = "file://artifacts/barbearia-modelo/public/images/gallery-5.png"
+type = "image"
+title = "Barber tools interior 1"
+
+[[generated]]
+id = "_aLoO-AL6U8PxA92PhpyD"
+uri = "file://artifacts/barbearia-modelo/public/images/gallery-6.png"
+type = "image"
+title = "Barber chair interior 2"
