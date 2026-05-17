@@ -13,16 +13,62 @@ import { FloatingWhatsApp } from "@/components/floating-whatsapp";
 export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground selection:bg-primary selection:text-primary-foreground">
+      
       <Header />
+
       <Hero />
+
+      {/* 🔥 CTA leve após o hero */}
+      <section className="text-center py-8">
+        <p className="text-red-400 text-sm mb-3">
+          ⚠️ Últimos horários disponíveis hoje
+        </p>
+
+        <a
+          href="https://wa.me/5511999999999"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition"
+        >
+          Agendar agora
+        </a>
+      </section>
+
       <Differentials />
+
       <Services />
+
+      {/* 🔥 CTA no meio (mais suave) */}
+      <section className="text-center py-12">
+        <h2 className="text-xl font-bold mb-4">
+          Pronto para um corte de qualidade?
+        </h2>
+
+        <a
+          href="https://wa.me/5511999999999"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border border-green-500 text-green-500 hover:bg-green-500 hover:text-white px-6 py-3 rounded-lg font-semibold transition"
+        >
+          Falar no WhatsApp
+        </a>
+      </section>
+
       <Barbers />
+
       <Gallery />
+
       <Testimonials />
+
+      {/* ❌ REMOVIDO CTA duplicado aqui */}
+
       <Location />
+
       <Contact />
+
       <Footer />
+
+      {/* ✅ Botão fixo global */}
       <FloatingWhatsApp />
     </main>
   );
