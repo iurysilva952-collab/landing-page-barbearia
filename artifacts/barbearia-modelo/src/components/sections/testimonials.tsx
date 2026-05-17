@@ -87,7 +87,7 @@ export function Testimonials() {
         {/* 🔥 CTA DENTRO DA PROVA SOCIAL (MUITO FORTE) */}
         <div className="text-center mt-16">
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5579988583155"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-bold transition"

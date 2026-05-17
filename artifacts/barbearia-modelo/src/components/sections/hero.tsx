@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Scissors } from "lucide-react";
 
 const WHATSAPP_URL =
-  "https://wa.me/5511999999999?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20horário.";
+  "https://wa.me/5579988583155?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20horário.";
 
 export function Hero() {
   return (

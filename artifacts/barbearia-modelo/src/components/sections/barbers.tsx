@@ -65,7 +65,7 @@ export function Barbers() {
                 <h4 className="text-2xl font-serif font-bold text-foreground mb-2">{barber.name}</h4>
                 <p className="text-muted-foreground mb-6">{barber.specialty}</p>
                 <Button variant="outline" asChild className="w-full font-bold uppercase tracking-normal border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                  <a href={`https://wa.me/5511999999999?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20horário%20com%20o%20${encodeURIComponent(barber.name)}.`} target="_blank" rel="noopener noreferrer">
+                  <a href={`https://wa.me/5579988583155?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20horário%20com%20o%20${encodeURIComponent(barber.name)}.`} target="_blank" rel="noopener noreferrer">
                     Agendar com este barbeiro
                   </a>
                 </Button>

@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Check, ShoppingBag, X, ChevronRight, ChevronDown, User } from "lucide-react";
 
-const WHATSAPP_BASE = "https://wa.me/5511999999999?text=";
+const WHATSAPP_BASE = "https://wa.me/5579988583155?text=";
 
 const services = [
   { id: 1, name: "Corte masculino", description: "Corte na tesoura ou máquina, com acabamento perfeito na navalha.", basePrice: 40, tag: null },
